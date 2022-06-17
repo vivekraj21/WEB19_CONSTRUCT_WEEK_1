@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2{
+            font-size: 18px;
+            color:black;
+            margin-left: 20px;
+        }
+        *{
+            font-size: 18px;
+           
+          
+        }
+        li{
+            margin-bottom: 10px;
+           color: #7f7159;
+           margin-left: 20px;
+        }
+        #a{
+            margin-bottom: 40px;
+            margin-left: 20px;
+        }
+        #first{
+        width: 100%;
+        height:550px;
+        border: 1px solid black;
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(1,500px);
+    
+        justify-content:space-between;
+      }
+      #first>div{
+        border: 1px solid black;
+        margin: 10px 10px 10px 50px;
+        background-color: black;
+        color: white;
+      }
+      #first>div:nth-child(1){
+        border: 1px solid black;
+        margin: 10px 10px 10px 10px;
+        background-color: black;
+        color: white;
+        width: 500px;
+      }
+      #first>div:nth-child(1)>div{
+        display: grid;
+        grid-template-columns: repeat(2,200px);
+        grid-template-rows: repeat(1,50px);
+        gap: 20px;
+      }
+      #email{
+        padding: 0px 0px 0px 20px;
+        color: white;
+        background-color: black;
+        width: 460px;
+        padding: 25px 0px 25px 20px;
+        border-radius: 5px;
+      }
+      #logo+p{
+        margin-left: 30px;
+        color:#aeaeae ;
+        margin-top: 30px;
+      }
+      #box{
+       
+        border-radius:20px;
+        margin-left: 30px;
+      }
+      #logo > img{
+        width: 80px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 20px;
+      }
+      button{
+        width: 180px;
+        height: 40px;
+        margin: 6px;
+        margin-left: 80px;
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        font-size:15px;
+      }
+      #small{
+        display: grid;
+        grid-template-columns: repeat(5,50px);
+        grid-template-rows: repeat(1,20px);
+      }
+      #small img{
+        width: 20px;
+        height: 20px;
+      }
+      a{
+        text-decoration: none;
+        color:#aeaeae;
+        font-size: 16px;
+      }
+      #second{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(1,80px);
+        
+      }
+      #second>div{
+        border: 1px solid black;
+        color: white;
+        background-color: black;
+        padding-left: 100px;
+      }
+      #second>div:nth-child(2){
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(1,100px);
+        
+      }
+      #second>div:nth-child(2)>div{
+        margin-left: -150px;
+      }
+      #second>div:nth-child(2)>div:nth-child(2){
+        margin-left: -110px;
+      }
+      #third{
+        background-color: black;
+        color: white;
+        margin-top: -20px;
+        padding-left: 580px;
+        height: 70px;
+      }
+      #zero{
+        color: #aeaeae;
+        background-color: #2c2c2c;
+        height: 60px;
+        padding: 20px 10px 20px 300px;
+        font-size:14px;
+      }
+      #zero>p:nth-child(1){
+        font-size: 14px;
+      }
+      #zero>p:nth-child(2){
+        padding:0px 10px 20px 300px; 
+        font-size: 14px;
+        
+      }
+      #shop{
+        color: white;
+        font-size: 17px;
+      }
+    </style>
+</head>
+<body>
+    <h2>Replacement Policy</h2>
+    <p id="a">Replacement of a product is allowed only under the following circumstances:</p>
+    <ul>
+        <li>The customer can replace the product unit received within 7 days from the date of delivery and get a replacement unit delivered to the customer.</li>
+        <li>Replacement can be made if the customer establishes that the product delivered in defective condition or has a physical damage within 24 hours of receipt of the product</li>
+        <li>Replacement with a fresh box unit can be provided to the customer if the customer establishes that the product delivered is not functioning properly within 7 days from the date of delivery.</li>
+        <li>In case of receipt of damaged or defective items please report the same to our website support team. The request will, however, be entertained once a boAt team member has checked and determined the same at his own end. This is typically reported back to the customer within 24 hours of receipt of the products by boAt.</li>
+        <li>In case you feel that the product received is not as shown on the site or as per the specifications, you must bring it to the notice of our website support team within 24 hours of receiving the product. The website support team after looking into your complaint will take an appropriate decision.</li>
+        <li>In case of replacement, the whole product package with the product and its accessories intact will be picked up by the courier boy arranged by us.</li>
+        <li>A product will not be replaced under the following circumstances:
+            <ul>
+                <li>Customer is not happy with the look/sound quality of a defect free product</li>
+                <li>Physical damage not notified within 24 hours of receiving the product</li>
+                <li>An electrical surge or any damage caused by the user.</li>
+            </ul>
+        </li>
+        <p id="a">Please see that no return or refund shall be provided. However, the customer can replace the product unit received within 7 days from the date of delivery and get a replacement.</p>
+    </ul>
+    <h2>Cancellation Policy</h2>
+    <p id="a">We believe in helping our customers as far as possible, and has therefore a liberal cancellation policy. However, under this policy:</p>
+    <ul>
+        <li>Cancellations request will not be entertained if the orders have already been communicated to the customers and they have initiated the process of shipping them.</li>
+        <li>There is no cancellation of orders placed under the Same Day Delivery category.</li>
+        <li>No cancellations are entertained for those products that have been obtained on special occasions. (These are limited occasion offers and therefore cancellations are not possible.)</li>
+    </ul>
+    <h2>Product Pricing</h2>
+    <ul>
+        <li>Product prices listed on the website are current. While every care has been taken to label the products accurately, errors in data entry and updating may occur. We reserve the right to cancel the order incase a transaction has been made where the price indicated was not the correct price. In the rare event that happens, we will give a full refund of all money received from the customer.</li>
+        <li>Prices are subject to change without advance notice.</li>
+        <li>All prices on this web site in Indian Rupees. For international cards used on the site, the banks applicable exchange rate and charges will apply. We have no jurisdiction on this and any disputes or queries on exchange rates and bank charges need to be directed to the bank or institution that issued your card or payment instrument</li>
+        <li>All orders are acknowledged at current pricing. We will bill at price in effect at the time of receipt of money and raising of an invoice.</li>
+        <li>Our products are liable for GST in India.
+        </li>
+    </ul>
+    <h2>Security</h2>
+    <ul>
+        <li>Transactions on the website are protected by SSL (Secure Sockets Layer) and Secure Data Encryption using a 1024-bit process. Any information you enter when transacting with the webstore is sent in a Secure Socket Layer (SSL) session and is encrypted to protect you against unintentional disclosure to third parties. This is an assurance that it follows the best security practices adopted by major online vendors where all payments are processed in real-time for your security and immediate peace of mind.</li>
+        <li>Credit card and Debit card information is not stored by us and is not taken by us. This information is taken directly by the payment gateway provided who is authorised and is compliant with the regulations and requirements of various banks and institutions and payment franchisees that it is associated with.To report security vulnerabilities affecting any of our products send an email to info@imaginemarketingindia.com.</li>
+        <li>To report security vulnerabilities affecting any of our products send an email to info@imaginemarketingindia.com.</li>
+    </ul>
+    <h2>Out of Stock situations</h2>
+    <ul><li>Our endeavor is to ensure that all products listed on the site are available in stock for dispatch to the buyer. However, in case the same is not available for any reason, we will contact you within 2 business days and give you the option to exchange, delay or cancel the order based on your convenience.</li></ul>
+    <h2>Delivery of products</h2>
+    <ul>
+        <li>Purchases are shipped from our own or third-party warehouses/ stores or offices from various points in India. Our endeavor is to make the products reach you within 7-10 Business days from receipt of order and payment depending on the address for delivery.</li>
+        <li>Order deliveries will be made by our own staff or third-party courier and logistics companies or Postal Services usually between 10.30 am – 7 pm Monday –Saturday.</li>
+        <li>Goods will need to be signed for upon delivery. We take no responsibility for goods signed by an alternative person other than the person ordering the product at the address indicated at the time of the order.</li>
+        <li>Since the transactions are authorised by the card holder, we do not take responsibility for incorrect addresses provided at the time of placing the order</li>
+        <li>We are not responsible for damage of products after delivery.</li>
+        <li>All claims, if any, for shortages or damages must be reported to customer service on the day of delivery through the contact us page on the web store. Also, the said shortage of goods needs be highlighted and signed on the Proof of delivery copy and returned to the delivery person.</li>
+        <li>In case your order has not been delivered but is reflecting “Delivered” on the tracker, please highlight it within 24 hours or else we will not be able to process your request.</li>
+    </ul>
+    <h2>Delivery Charges</h2>
+    <ul><li>Shipping and handling rates may vary based on product, packaging, size, volume, type and other considerations. The shipping and handling charges are given at the time of check out and consumers will know about this before making payments.</li></ul>
+    
+    <div id="zero">
+        <p>India's fastest growing audio & wearables brand. The most incredible range of wireless earphones, earbuds, headphones, smart watches, and home audio.</p>
+        <p> From workouts to adventures, boAt will get you sailing!</p>
+      </div>
+      <div id="first">
+          
+          <div>
+              <div id="logo"><img  src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Boat-Logo_200x.png?v=1600753267" alt="logo"></div>
+              <p>Subscribe to email alerts. We promise not to spam your inbox.</p>
+              <div id="box">
+              <input type="mail" placeholder="Email Address*" id="email">
+              <div> <button>SUBSCRIBE</button> </div>
+              <div id="small">
+                  <div><a href="https://www.facebook.com/boat.nirvana/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAclBMVEUAAAD////l5eWZmZmQkJCAgIAKCgrt7e0RERHNzc2hoaFMTEwXFxd9fX3w8PDi4uI3Nzf29vbFxcW4uLjY2NhqampUVFSFhYXV1dWLi4vHx8e6uroODg5mZmZeXl4nJycgICBxcXGsrKwuLi5CQkI8PDwmDCXRAAADi0lEQVR4nO3df1PaQBDG8USj0ST8BkVQRGrf/1ssgdqGomXvrtt9NvN8Z/zTmf1MbAKXXJrl+8qqbrK+1dRV2eKy/U9lPYxa1VE4sJ5DsUEr7O8RbKvyrLSeQbky6/ch3B/ErLYeQbk6699l4rS++xhjjDHGGGOMMcYYY4wxxhjz0fPdec/WQ6V2N36pZtP5MP+6+cZ6yOheF7O/0n51bT1pVNtiPpHoDjk8ipt7sa7t3nre0N6ugnz7rCcOazMP9TkT7sJ9roTjMgboSLiJ8jkSLiKBboQvsUAvwm/RQCfC2+CroDfhOh7oQxh9lnEjFH2L8CysUoAuhElAD8K0Q+hA2Mi/7ToVDtKADoTLvgvHiUB8YdF7Ydi6k0dhKhBe+NB7YeLlPs/hNwROU4Uza8Glkr5W7BveWgsulQgcwe94DDzRlKP58v53awf7qgM+lC4f3+H/Ij/pUex7tx41smsp0HrQ6GZC4dh60OiEn0rhL3pfJ7xfCH9N+LqRCDi0HjMhmdDdvfpOMuHUesyEZHdkHJ9ohMKd9ZgJyYSeX5kiE/p8tOsYhRTiRyGF+FFIIX79F8oeKXX8ufS7COj5++GTTDjxuBR8SPzMpdeDuJA/STN9tR5WWrMoPtrJ1mg+/lCX18VZTw/WnrOS7/j+2QrsX2jyDd/zRtamk97+PTDPb6xV3VYawpW1qlvQqUUa0nr4bdyunwshXSp1hEjr4TrCwprVSUe4sGZ10hEi3TzVESLd4VcRTrbWrE4qwitrVTcV4dxa1U1FCPUokYpwba3qpiKEWmhUEUI9f6kiRPpIoyOEWqnREE6QPtKoCLEeZNcQYu220BBiLbVpCKEu+CpCsPtuCmttUKulKuulUKfSxJdDfBrSQtsh6d4DaVhn0kNF4t77kyZgp5ljzWZw87MqaJv6cFXcnDTYbK0xl3uQbz5c31kPG9dWDLSeNDrh1rWJ9ZzxCV+ogHR/KTQ+q38MarkpMAopxI9CCvGjkEL8KKQQPwopxI9CCvGjkEL8KKQQPwopxI9CCvGjkEL8KKQQPwopxI9CCvGjkEL8KKQQPwopxI9CCvGjkEL8KKQQPwopxI9CCvGjkEL8KKQQPwopxI9CCv97TegvOBM2WfBL7p0J6yz4ZUDOhFUW/MJUZ8IyC36jky9hlWfB79d2JRzkrTDwKHoStv/hWCvMy6qWXzS8CJu6OrxB9weMgzZfsnt+CgAAAABJRU5ErkJggg==" alt=""></a></div>
+                  <div><a href="https://twitter.com/RockWithboAt"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLBdY-zCCdZ5xPuXwh7JJxP7IhRSQvDs16ug&usqp=CAU" alt=""></a></div>
+                  <div><a href="https://www.instagram.com/boat.nirvana/"><img src="data:image/png;base64,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" alt=""></a></div>
+                  <div><a href="https://www.youtube.com/channel/UCY3JXaO_v8H3E6hTYUp5qWQ"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpsJRp788_xYrDRuqc30aAj-XNcTJt8AUOpw&usqp=CAU" alt=""></a></div>
+                  <div><a href="https://www.linkedin.com/company/boat-lifestyle/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEUAAAD///9GRkYuLi5ra2vw8PD4+PiUlJRKSkrX19f8/Pzi4uKXl5fv7+91dXXAwMDIyMg2NjZlZWXPz8+pqamCgoI+Pj4eHh6Ojo4wMDANDQ2ysrJVVVUYGBi8vLyHh4deXl5xcXEkJCQRERFcLXXsAAAEPklEQVR4nO2d21bqMBRFCbXYGwWhCHKT4/n/fzwo6hFom5WLuXSs+eJTYc9BmyZ778TRiBBCCCGEEEIIIYQQ4pBk0czyM8tZtT/4DsY+h9dc/CCdL3xHZJdtMxG3lLXvqCyyKu78Phwz34FZYr1s9Xun8h2bFZ6nnYJCzHxHZ4Fxj9+Z3Hd8xjz3C8avuO67RS8cfcdoxlwqKETUb40aEBSTN99hGnD/nh/YfVpBgkI8+w5UmxQ03PkOVJcVKCiE70h16Z6t3bLyHaoea2yceSfSydseFhQT37Hq8YgbisR3sFrMFAwffAerBTJj++LVd7Ba5HKxbza+g9WChvEbDv85PCoYxpk9Hf77MMMFI53TDH9eqjDU/PEdqiZQluYD35FqI08lXoh2jQ/naZ58B6oPlqiJ9yccjR4QwTTqgjCyRoxzbfhNKRVsfIdoyIvsUZz7jtCYpH9mE7/gWbHvrRhxyeIn3cNNnMvCFur2h3EZb0Xmju1jSz9NnKvebuqrKsZkN5RemisWm92yLMt5sxqkHiGEEEIIId0kT/v9Pkm2vuP4BdarZj4tio9tAuc/RbrcVSffQVkjqWcd6aHyWMfczvpJLWmoy1/tSR6qRzlVVzIDuPi+w+HQAKWEydHWCvVF/mWiu3oIXHpbPD7soG88k++tGCbQl3Wl9YFL0+srVFoHxNxGIsyt4UleQrjGQkHBqWGj6HemNK5cOjR8Uv0BL5h2J7szXOCNH9cY3qnODPGm+TvMSieuDNGGgVaMyl+ODI0EzfqV3BhuzASNnkUnhgszvXf0R1QXhpJNqhjjgA0PaONVL2WwhlOlPQ896D6Kv29o4SG88BKoYao7lblDc8f1rxtaRK81KyZDvcEmJkNxGryh1pMYlaFWI29chjrvxLgMi8EbitPgDTUaziMznA7eUKjn+mMzVF8Jx2aonpTyZJiWmsti9bmpa8Mir+qvmUlSN+ppcOVVolvDcnM778rgYtsnyiU3l4Zp68e8qey31hhqHBp2TirxXZBCI8XvzLDoWaFnCpkO5cHUlWHR+6qWnor3H+U1oitDyVwEv1GV522ODKVn2uFDapiG8trRFj11LExDZOEKl6dU+9+cGELbw9DxVHVS48IQGxzQIqpqEcqFIXZSLxZJkIYFmAMEzwMK0HAJhgLepgEaottQwfPxAjREE9Vr7JUYniF+dg+2HA7PEF8MYMdWhWeI1xqw3tPwDPFFOdb6Fp4hnsPFehrCM1zDsWBHj4VnqBBL+7+goKFvQ4Wj7LZxGqrkVaAlYnCGacelNKQhDWlIQxrSkIY0pCENaUhDGtKQhjSkIQ1pSEMa0pCGNKQhDWlIQxrSkIY0pCENaUhDGtKQhjSkIQ1pSEMa0pCGNKQhDWlIw8EaOv9vSH1AsaieDbnNxnKyrr28yMUKwQCfNs7+KhoSQgghhBBCCCGEEGKTf/M7W8VSr0RZAAAAAElFTkSuQmCC" alt=""></a></div>
+              </div>
+              </div>
+          </div>
+          <div>
+              <p id="shop">SHOP</p>
+              <p><a href="">True Wireless Earbuds</a></p>
+              <p><a href="">Wireless Headphones</a></p>
+              <p><a href="">Wired Headphones</a></p>
+              <p><a href="">Wireless Speakers</a></p>
+              <p><a href="">Home Audio</a></p>
+              <p><a href="">Mobile Accessories</a></p>
+              <p><a href="">Smart Watches</a></p>
+              <p><a href="">TRebel</a></p>
+              <p><a href="">Misfit</a></p>
+              <p><a href="">Gift Card</a></p>
+              <p><a href="">Rock In India</a></p>
+              <p><a href="">Earn Rs.100</a></p>
+  
+          </div>
+          <div>
+              <p id="shop">HELP</p>
+              <p><a href="">Track Your Order</a></p>
+              <p><a href="">Warranty & Support</a></p>
+              <p><a href="">Return Policy</a></p>
+              <p><a href="">Servise Centres</a></p>
+              <p><a href="">Bulk Oders</a></p>
+              <p><a href="">FAQs</a></p>
+              <p><a href="">Why Buy Direct</a></p>
+          </div>
+          <div>
+              <p id="shop">COMPANY</p>
+              <p><a href="">About Boat</a></p>
+              <p><a href="">News</a></p>
+              <p><a href="">Read Our Blog</a></p>
+              <p><a href="">Careers</a></p>
+              <p><a href="">Security</a></p>
+              <p><a href="">Terms of Service</a></p>
+              <p><a href="">Privacy Policy</a></p>
+              <p><a href="">Investor Relations</a></p>
+          </div>
+      </div>
+      <div id="second">
+          <div>
+             <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Fotter_payment_icn_2_900x_aff68517-98f4-4a82-9aee-2405cea66251_350x.png?v=1650262054" alt="">
+          </div>
+          <div>
+              <div><h3>DOWNLOAD THE APP</h3></div>
+              <div><a href="https://play.google.com/store/apps/details?id=boatlifestylein.android.app"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/google-play.png?v=1608620293" alt=""></a></div>
+              <div><a href="https://apps.apple.com/us/app/id1521646593"><img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/app-store.png?v=1608620293" alt=""></a></div>
+          </div>
+      </div>
+      <div id="third">
+          <p>© 2022 Imagine Marketing Limited. All Rights Reserved.</p>
+      </div>
+
+</body>
+</html>
