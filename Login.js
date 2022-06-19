@@ -51,6 +51,7 @@
 
 function chechUserData(){
     event.preventDefault();
+<<<<<<< HEAD
     // let checkUser=JSON.parse(localStorage.getItem("Information")) || [] for array format
     let checkUser=JSON.parse(localStorage.getItem("Information")) 
     
@@ -87,4 +88,37 @@ function chechUserData(){
         } 
         
     // });
+=======
+    var obj={
+        Email:document.querySelector("#email").value,
+        Password:document.querySelector("#password").value
+    }
+    console.log(obj)
+    // console.log(userdata);
+    if(verifyemail(obj.Email,obj.Password)==true)
+    {
+        loginUserData.push(obj);
+        localStorage.setItem("loggedUserData",JSON.stringify(loginUserData));
+        alert("Login Sucessfully");
+        window.location.href="index.html";
+    }
+    else
+    {
+         alert("Invalid Email or Password");
+    }
+}
+function verifyemail(email,password)
+{
+    var filter= loginUserData.filter(function(elem){
+        return elem.Email==email && elem.Password==password;
+     });
+     if(filter.length>0)
+     {
+        return true;
+     }
+     else
+     {
+        return false;
+     }
+>>>>>>> 3366f211d578288050b2133e06ef990ab03d4d7b
 }
