@@ -51,7 +51,6 @@
 
 function chechUserData(){
     event.preventDefault();
-<<<<<<< HEAD
     // let checkUser=JSON.parse(localStorage.getItem("Information")) || [] for array format
     let checkUser=JSON.parse(localStorage.getItem("Information")) 
     
@@ -88,7 +87,7 @@ function chechUserData(){
         } 
         
     // });
-=======
+
     var obj={
         Email:document.querySelector("#email").value,
         Password:document.querySelector("#password").value
@@ -120,5 +119,5 @@ function verifyemail(email,password)
      {
         return false;
      }
->>>>>>> 3366f211d578288050b2133e06ef990ab03d4d7b
+
 }
