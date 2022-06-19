@@ -16,6 +16,7 @@ function myfunc(event)
         loginUserData.push(obj);
         localStorage.setItem("loggedUserData",JSON.stringify(loginUserData));
         alert("Login Sucessfully");
+        window.location.href="index.html";
     }
     else
     {

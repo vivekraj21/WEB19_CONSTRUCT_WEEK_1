@@ -832,14 +832,15 @@ let productData=[ { pimg:
     console.log(cartdata);
     function displaydata(productData)
     {
-        productData.forEach( function(elem) {
+      productData.forEach( function(elem) {
             var product =document.createElement("div");
             var img=document.createElement("img");
             img.setAttribute("src",elem.pimg);
             var name=document.createElement("h1");
             name.innerText=elem.pname;
             var rating=document.createElement("h4");
-            rating.innerText=elem.proreview;
+            rating.innerText="Rating "+elem.proreview;
+            rating.style.color="gray";
             var price=document.createElement("h4");
             price.innerText="₹ "+elem.pcost;
             price.style.color="red";

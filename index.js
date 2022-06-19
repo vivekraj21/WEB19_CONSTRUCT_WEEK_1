@@ -59,3 +59,4 @@ var img=document.querySelector("#maha");
     var imgx=document.querySelector(".Mg")
     imgx.src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/1_4_f1b2cb15-4a1a-487c-9465-4aed6b4f2530.png?v=1655449535";
     })
+    

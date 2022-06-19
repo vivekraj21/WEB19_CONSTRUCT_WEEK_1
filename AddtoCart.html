@@ -121,16 +121,39 @@
             width: 100%;
             display: grid;
             grid-template-columns: repeat(4,1fr);
-            grid-template-rows: auto;
+            grid-template-rows:auto;
             gap:10px 20px;
-
-
+        }
+        #box>div{
+            /* border: 4px solid red; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            height: 500px;
         }
         #box>div>img{
             width: 100%;
+            background-color: gray;
         }
         #box>div> h4,h1,button {
             /* width: 100%; */
+            margin-top: 10px;
+            display: block;
+            margin-left: 20px;
+        }
+        #box>div>h1{
+            font-size: 25px;
+            /* padding-left: 20px; */
+        }
+        #box>div>button{
+            width: 90%;
+            height: 40px;
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            font-size: 20px;
+            border: none;
+            text-transform: uppercase;
+            display: grid;
+            align-items: center;
             margin-top: 10px;
         }
     </style>
@@ -172,7 +195,6 @@
            </div>
     </div>
     <div id="box">
-          
     </div>
 </body>
 </html>
